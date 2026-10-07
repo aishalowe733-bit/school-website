@@ -1,0 +1,79 @@
+/* the css rest */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    background-color: white;
+    color: #173f70;
+    font-size: medium;
+}
+header {
+    background-color: #17477e;
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header span {
+    font-size: 25px;
+    font-weight: bold;
+}
+ul {
+    color: white;
+    gap: 25px;
+    list-style: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+main {
+    padding: 40px;
+}
+main h1 {
+    color: #173f70;
+    font-size: 45px;
+    margin: 10px 0;
+}
+main p {
+    font-size: 18px;
+    margin: 10px 0;
+    }
+button {
+    background-color: blue;
+    color: white;
+    padding: 25px 60px;
+    border: 5%;
+    font-size: 25px;
+    margin-top: 50px;url(../../Pictures/school-photo.jpeg)
+    border-radius: 10%;
+
+}
+main img {
+    width: 45%;
+    height: 300px;
+    object-fit: cover;
+    float: right;
+    margin-top: -150px;
+}
+main h2 {
+    color: #173f70;
+    font-size: 32px;
+    margin-top: 100px;
+}
+main strong {
+    display: block;
+    font-size: 20px;
+    color: navy;
+    margin-top: 20px;
+}
+footer {
+    background-color: navy;
+    color: white;
+    padding: 25px;
+    margin-top: 30px;
+}
